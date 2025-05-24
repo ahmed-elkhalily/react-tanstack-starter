@@ -27,6 +27,14 @@ function HomePage() {
         <p className="text-lg text-gray-600 mb-8">
           A modern React application with the best developer experience
         </p>
+
+        {/* Tailwind CSS Test Section */}
+        <div className="mb-6 p-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg text-white">
+          <h2 className="text-xl font-semibold mb-2">🎨 Tailwind CSS is Working!</h2>
+          <p className="text-sm opacity-90">
+            If you can see this colorful gradient background, Tailwind CSS is properly configured!
+          </p>
+        </div>
         
         {/* React Query Example */}
         <div className="mb-6 p-4 bg-blue-50 rounded-lg">
