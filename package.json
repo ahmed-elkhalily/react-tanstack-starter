@@ -15,9 +15,11 @@
     "@tanstack/react-query": "^5.77.0",
     "@tanstack/react-router": "^1.120.10",
     "@tanstack/router-devtools": "^1.120.10",
+    "clsx": "^2.1.1",
     "framer-motion": "^12.12.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
