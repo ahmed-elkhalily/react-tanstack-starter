@@ -6,4 +6,4 @@ module.exports = {
   trailingComma: 'es5',
   jsxSingleQuote: true,
   plugins: ['prettier-plugin-tailwindcss'], // Ensure Tailwind CSS class sorting
-}; 
+};

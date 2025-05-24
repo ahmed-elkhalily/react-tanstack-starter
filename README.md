@@ -65,11 +65,13 @@ src/
 ### 📁 Directory Explanations
 
 #### **`app/`** - Application Configuration
+
 - **`store/`** - Global state management setup (Zustand stores, Redux slices)
 - **`router/`** - Router configuration, route guards, and navigation utilities
 - **`providers/`** - React context providers, theme providers, auth providers
 
 #### **`shared/`** - Reusable Code
+
 - **`components/ui/`** - Design system components (Button, Input, Card, Modal)
 - **`components/layout/`** - Layout components (Header, Footer, Sidebar, Navigation)
 - **`hooks/`** - Custom hooks used across multiple features
@@ -79,7 +81,9 @@ src/
 - **`types/`** - Shared TypeScript interfaces and types
 
 #### **`features/`** - Business Logic
+
 Each feature is self-contained with its own:
+
 - **`components/`** - Components specific to this feature
 - **`hooks/`** - Hooks that encapsulate feature logic
 - **`services/`** - API calls and data fetching for this feature
@@ -88,11 +92,13 @@ Each feature is self-contained with its own:
 - **`index.ts`** - Barrel export file for clean imports
 
 #### **`pages/`** - Route Components
+
 - Components that represent full pages
 - Compose multiple features together
 - Handle page-level concerns (SEO, analytics)
 
 #### **`routes/`** - TanStack Router
+
 - Route definitions and configurations
 - Automatically generated route tree
 
@@ -100,16 +106,16 @@ Each feature is self-contained with its own:
 
 ```typescript
 // Feature imports (barrel exports)
-import { LoginForm, useAuth } from '@/features/authentication'
-import { UserList, useUsers } from '@/features/user-management'
+import { LoginForm, useAuth } from '@/features/authentication';
+import { UserList, useUsers } from '@/features/user-management';
 
 // Shared utilities
-import { Button, Modal } from '@/shared/components/ui'
-import { formatDate, debounce } from '@/shared/utils'
-import { apiService } from '@/shared/services'
+import { Button, Modal } from '@/shared/components/ui';
+import { formatDate, debounce } from '@/shared/utils';
+import { apiService } from '@/shared/services';
 
 // Types
-import type { User, ApiResponse } from '@/shared/types'
+import type { User, ApiResponse } from '@/shared/types';
 ```
 
 ### 🎯 Benefits of This Structure
@@ -126,23 +132,26 @@ import type { User, ApiResponse } from '@/shared/types'
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/ahmed-elkhalily/react-tanstack-starter.git
 cd react-tanstack-starter
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```

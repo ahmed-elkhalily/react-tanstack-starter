@@ -20,4 +20,4 @@
 // export type { User, AuthState, LoginCredentials } from './types'
 
 // Placeholder export to prevent empty module error
-export const AUTHENTICATION_FEATURE = 'authentication' as const 
+export const AUTHENTICATION_FEATURE = 'authentication' as const;

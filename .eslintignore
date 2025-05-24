@@ -11,10 +11,10 @@ node_modules/
 routeTree.gen.ts
 *.d.ts
 
-# Package files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# Config files
+vite.config.ts
+tailwind.config.js
+postcss.config.js
 
 # Environment files
 .env
@@ -29,7 +29,4 @@ pnpm-lock.yaml
 
 # OS files
 .DS_Store
-Thumbs.db
-
-# Logs
-*.log 
+Thumbs.db 

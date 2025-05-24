@@ -20,4 +20,4 @@
 // export type { User, UserProfile, UserFilters } from './types'
 
 // Placeholder export to prevent empty module error
-export const USER_MANAGEMENT_FEATURE = 'user-management' as const 
+export const USER_MANAGEMENT_FEATURE = 'user-management' as const;

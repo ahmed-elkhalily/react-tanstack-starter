@@ -14,10 +14,7 @@ module.exports = {
   plugins: ['react-refresh', 'prettier'],
   rules: {
     'prettier/prettier': 'warn',
-    'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
+    'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     '@typescript-eslint/no-unused-vars': 'warn',
     'react/react-in-jsx-scope': 'off', // Not needed with React 17+ and Vite
     'react/prop-types': 'off', // Not needed with TypeScript
@@ -27,4 +24,4 @@ module.exports = {
       version: 'detect',
     },
   },
-}; 
+};
